@@ -1,0 +1,36 @@
+nsh>                                                                                     |
+nsh> uptime                                                                          
+00:00:07 up  0:00, load average: 0.00, 0.00, 0.00                                    
+nsh> uptime
+00:00:20 up  0:00, load average: 0.00, 0.00, 0.00
+nsh> sleep 1
+nsh> sleep 3
+nsh>uptime
+00:00:43 up  0:00, load average: 0.00, 0.00, 0.00
+nsh> reboot
+reboot status=0
+
+nsh> reboot
+reboot status=0
+ 
+nsh> 
+nsh> reboot
+reboot status=0
+ 
+nsh> 
+nsh> uptime
+00:00:24 up  0:00, load average: 0.00, 0.00, 0.00
+nsh> uptime
+00:00:29 up  0:00, load average: 0.00, 0.00, 0.00
+nsh> 
+nsh> 
+nsh> ps
+  PID GROUP PRI POLICY   TYPE    NPX STATE    EVENT     SIGMASK            STACK COMMAND
+    0     0   0 FIFO     Kthread   - Ready              0000000000000000 0002016 CPU0 IDLE
+    2     2 100 RR       Task      - Running            0000000000000000 0001984 nsh_main
+nsh> ps
+  PID GROUP PRI POLICY   TYPE    NPX STATE    EVENT     SIGMASK            STACK COMMAND
+    0     0   0 FIFO     Kthread   - Ready              0000000000000000 0002016 CPU0 IDLE
+    2     2 100 RR       Task      - Running            0000000000000000 0001984 nsh_main
+nsh> uptime
+00:01:57 up  0:01, load average: 0.00, 0.00, 0.00
